@@ -1,6 +1,6 @@
 const express=require('express');
 const app= express();
-const data=require('./data')
+const data=require('./data.json')
 
 app.get("/",function (req, res){
     console.log("ha");
